@@ -94,12 +94,13 @@ export default {
 }
 small{
   font-size: 10px;
-}
-h3{
-  font-weight: bolder;
+  position: relative;
 }
 h6{
   font-weight: lighter;
+} 
+h3{
+  font-weight: bolder;
 }
 .parent{
   width:40%;
@@ -122,7 +123,7 @@ button{
   border-radius: 5px;
   background-color: #000;
   color:#fff;
-  flex: .5;
+  flex: .8;
 }
 .quoteIcon{
   font-size: 40px;
